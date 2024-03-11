@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68d4a1a0-6a48-4ce3-9abc-dd671a92d726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/small-spring-step01/src/main/java/org/example/springframework/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step01/src/test/java/org/example/springframework/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step01/src/test/java/org/example/springframework/test/bean/UserService.java" afterDir="false" />
+    <list default="true" id="68d4a1a0-6a48-4ce3-9abc-dd671a92d726" name="Changes" comment="FEAT:简单的bean容器">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/support/DefaultSingletonBanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/test/java/org/example/springframework/bean/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step02/src/test/java/org/example/springframework/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/small-spring-step01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step01/src/main/java/org/example/springframework/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step01/src/main/java/org/example/springframework/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +38,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ytvivian98"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5d747fd8-532b-4f13-82b9-79a0796dfd94" />
+        <option name="url" value="git@github.com:ytvivian98/SmallSpring.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -48,14 +75,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "onboarding.tips.debug.path": "/home/Admin/IdeaProjects/SmallSpring/small-spring-step01/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/home/Admin/IdeaProjects/SmallSpring/small-spring-step02/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory">
+  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="small-spring-step01" />
@@ -65,6 +92,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_BeanFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory (1)" />
         <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
         <item itemvalue="Application.Main" />
       </list>
@@ -109,12 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709772215414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FEAT:简单的bean容器">
+      <option name="closed" value="true" />
+      <created>1709780774535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709780774535</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FEAT:新建工程" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEAT:新建工程" />
+    <MESSAGE value="FEAT:简单的bean容器" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT:简单的bean容器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -123,6 +176,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/small-spring-step02/src/main/java/org/example/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
