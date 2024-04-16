@@ -4,60 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68d4a1a0-6a48-4ce3-9abc-dd671a92d726" name="Changes" comment="FEAT:资源加载器解析文件注册对象">
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/BeansException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/PropertyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/PropertyValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/ConfigurableListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/HierarchicalBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/ListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/config/AutowiredCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/config/BeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/config/BeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/config/BeanReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/AbstractBeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/BeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/context/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/context/ConfigurableApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/context/support/AbstractRefreshableApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/context/support/AbstractXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/core/io/ClassPathResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/core/io/DefaultResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/core/io/FileSystemResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/core/io/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/core/io/ResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/core/io/UrlResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/java/org/example/springframework/utils/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/java/org/example/springframework/bean/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/java/org/example/springframework/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/java/org/example/springframework/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/java/org/example/springframework/test/common/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/java/org/example/springframework/test/common/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/resources/important.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step06/src/test/resources/springPostProcessor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step05/src/test/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step05/src/test/resources/spring.xml" afterDir="false" />
-    </list>
+    <list default="true" id="68d4a1a0-6a48-4ce3-9abc-dd671a92d726" name="Changes" comment="FEAT:实现应用上下文" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -291,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710731371038</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FEAT:实现应用上下文">
+      <option name="closed" value="true" />
+      <created>1713246827908</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713246827908</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,7 +257,8 @@
     <MESSAGE value="FEAT:给bean中填充属性" />
     <MESSAGE value="FEAT:新增impotent.properties" />
     <MESSAGE value="FEAT:资源加载器解析文件注册对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEAT:资源加载器解析文件注册对象" />
+    <MESSAGE value="FEAT:实现应用上下文" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT:实现应用上下文" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
