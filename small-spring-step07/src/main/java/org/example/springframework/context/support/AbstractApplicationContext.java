@@ -73,4 +73,14 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
         }
     }
 
+    @Override
+    public void registerShutdownHook() {
+        //当jvm关闭时，会执行系统中已经设置的所有通过方法addShutdownHook添加的钩子，当系统执行完这些钩子时，jvm才会关闭
+        Runtime.getRuntime().addShutdownHook(new Thread(this::close));
+    }
+
+    @Override
+    public void close() {
+        getBeanFactory().destroySingletons();
+    }
 }
