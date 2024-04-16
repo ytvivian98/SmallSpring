@@ -1,5 +1,8 @@
 package org.example.springframework.beans;
 
+/**
+ * bean 全局exception
+ */
 public class BeansException extends RuntimeException {
 
     public BeansException(String msg){
