@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68d4a1a0-6a48-4ce3-9abc-dd671a92d726" name="Changes" comment="FEAT:实现应用上下文">
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/java/org/example/springframework/bean/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/java/org/example/springframework/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/java/org/example/springframework/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/java/org/example/springframework/test/common/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/java/org/example/springframework/test/common/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/resources/important.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step07/src/test/resources/springPostProcessor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="68d4a1a0-6a48-4ce3-9abc-dd671a92d726" name="Changes" comment="FEAT:初始化和销毁方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/config/ConfigurableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/support/DisposableBeanAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/support/DisposableBeanAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/context/ConfigurableApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/context/ConfigurableApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/config/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step07/src/main/java/org/example/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -68,12 +55,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.ApiTest.test_xml (1).executor": "Run",
+    "JUnit.ApiTest.test_xml (1).executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/data/JavaProjects/SmallSpring/small-spring-step07/src/test/resources",
     "onboarding.tips.debug.path": "/home/Admin/IdeaProjects/SmallSpring/small-spring-step04/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
@@ -263,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713246827908</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="FEAT:初始化和销毁方法">
+      <option name="closed" value="true" />
+      <created>1713274607056</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713274607056</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +282,8 @@
     <MESSAGE value="FEAT:新增impotent.properties" />
     <MESSAGE value="FEAT:资源加载器解析文件注册对象" />
     <MESSAGE value="FEAT:实现应用上下文" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEAT:实现应用上下文" />
+    <MESSAGE value="FEAT:初始化和销毁方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT:初始化和销毁方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
